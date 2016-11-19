@@ -21,7 +21,15 @@ class UnordererList: 	 	# to refer to the first node
 		temp = Node(item)	#create a item which resides in a node obj
 		temp.set_next(self.head)	#changes the next reference of the new node to refer to the old first node of the list.
 		self.head = temp		#attach head to new node
+	def size(self):			#count the number of nodes
+		current = self.head
+		count = 0
+		while current != None:				#as long as current reference is not None, move current to the next node
+			count += 1
+			current = current.get_next()
 
+		return count 
+		
 		
 
 mylist = UnordererList()
