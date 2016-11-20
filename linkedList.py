@@ -29,10 +29,24 @@ class UnordererList: 	 	# to refer to the first node
 			current = current.get_next()
 
 		return count 
+	
+	def search(self,item):
+		current = self.head
+		found = False  				#boolean var to remember if have located the item we are searching for
+		while  current !=None and not found:
+			if current.get_data()==item:
+				found = True
+			else:
+				current = current.get_next()
 		
+		return	found		#return the result that whether we found the item we are searching for	
 		
 
 mylist = UnordererList()
 temp = Node(93)
 sure = temp.get_data()
-print(sure)
+mylist.add(8)
+mylist.add(12)
+print(mylist.search(8))
+size = mylist.size()
+print(size)
