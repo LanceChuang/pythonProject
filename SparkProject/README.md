@@ -12,7 +12,7 @@ Instead, use text editors such as sublime text or Notepad in case of unpredictab
 
 ### To execute the programs, please ensure assignments' documents: ml-20m, ml-latest-small and files:
 
-RenHau_Chuang_task1.py ,RenHau_Chuang_task2.py are under spark directory.
+MovieAvgRating.py ,averageratings_eachtag.py are under spark directory.
 
 ## Execution instruction:
 
