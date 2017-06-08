@@ -10,7 +10,7 @@ When type the path, please be careful if the path is right.
 
 Instead, use text editors such as sublime text or Notepad in case of unpredictable errors.
 
-# To execute the programs, please ensure assignments' documents: ml-20m, ml-latest-small and files:
+### To execute the programs, please ensure assignments' documents: ml-20m, ml-latest-small and files:
 
 RenHau_Chuang_task1.py ,RenHau_Chuang_task2.py are under spark directory.
 
