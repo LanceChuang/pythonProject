@@ -1,6 +1,6 @@
-# This is guidance of homework 1 from Ren-Hau Chuang.
-  ## Please unzip all files under spark directory
-  ## Please put movielens files ml-20m and ml-latest-small  both under spark directory 
+# This is guidance of SparkProject from Ren-Hau Chuang.
+## Please unzip all files under spark directory
+## Please put movielens files ml-20m and ml-latest-small  both under spark directory 
 When type the path, please be careful if the path is right.
 
 
