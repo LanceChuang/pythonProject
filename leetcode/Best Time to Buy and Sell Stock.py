@@ -42,3 +42,5 @@ class Solution(object):
 stockP = [7,1,5,3,6,4]
 Sol = Solution()
 print(Sol.maxProfit(stockP))
+
+
